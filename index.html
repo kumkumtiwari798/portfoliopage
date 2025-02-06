@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script defer src="script.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <img class="nav-logo" src="Logo-4-removebg-preview.png" alt="logo">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <header>
+        <nav>
+            <img class="nav-logo" src="Logo-4-removebg-preview.png" alt="logo">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Hi, I'm <span>Kumkum Tiwari</span></h1>
+            <p>Frappe Developer || Problem Solver || Tech Enthusiast</p>
+            <!-- <a href="#portfolio" class="btn">View My Work</a> -->
+            <a href="https://drive.google.com/file/d/18ZxQ9j2EVQXYM7aAOFa2bzBYr72Y5fLh/view?usp=sharing" class="btn">View Resume</a>
+        </div>
+        <img src="WhatsApp_Image_2025-01-11_at_2.23.21_PM-removebg-preview.png" alt="Your Image">
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p class="about-a">Driven and quick learner with a passion for adopting new skills and
+            technologies to contribute to organizational growth. Eager to apply my
+            expertise while continuously enhancing my knowledge to deliver
+            impactful and innovative solutions....</p>
+    </section>
+    
+    <section id="portfolio" class="portfolio">  
+        <h2 class="my-work">My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTislQ2KvIbBQxkDeg6qRo_TsPdQb7K-uatXw&s" alt="Project 1">
+                <h3>Airplane Mode</h3>
+                <p>This project, built using the Frappe Framework, provides complete airplane-related information.
+                    It includes ticket booking, seat selection, airport shops and flight details.</p>
+                <h4><a href="https://github.com/kumkumtiwari798/Airplane-Mode" >View</a></h4>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaeeUJq74dBIRZePlGB5QxQiJRqyvbuoQA5Q&s" alt="Project 2">
+                <h3>Interview Management System</h3>
+                <p>Built an Interview Management System using the Frappe framework to
+                    streamline candidate tracking, interviewer management, and interview
+                    scheduling.</p>
+                    <h4><a href="https://github.com/kumkumtiwari798/Interview-management-system">View</a></h4>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm75xmVov3YsmTDkcexO57Rl6EO3eZtmphLA&s" alt="Project 1">
+                <h3>Time-Weather-App</h3>
+                <p>Websites provides complete weather details by entering a city name. Users get an accurate
+                    5-day forecast with temperature, humidity, wind speed, and more.</p>
+                <h4><a href="https://kumkum-weatherapp.netlify.app">View</a></h4>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3U0kSP4JzyRQK89oH7GW8EW7tgUV0etGrQ&s" alt="Project 1">
+                <h3>a Cake Ordering Page </h3>
+                <p>The Cake Ordering Page is an online platform for ordering cakes. 
+                    Users can browse, customize, and place orders for home delivery.</p>
+                <h4><a href="https://cakeordering-page.netlify.app/">View</a></h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h2 class="my-work">Skills</h2>
+        <div class="skill-list">
+            <span>Frappe Framework & erpnext</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Html & Css</span>
+            <span>Mariadb & Mysql</span>
+        </div>
+        <h2 class="my-work">other skills</h2>
+        <div class="skill-list">
+            <span>Communication</span>
+            <span>Teamwork</span>
+            <span>Adaptability</span>
+            <span>Time Management</span>
+            <span>Innovative</span>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2 class="my-work">Contact Me</h2>
+        <div class="social-icons">
+            <a href="tel:+917987942211" target="_blank"><i class="fas fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/kumkum-tiwari-3602692b7" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kumkumtiwari798" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:kumkumtiwari23@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <footer>
+        <p>NavGurukul Foundation For social welfare</p>
+        <p>Yog Bhavan Raipur Chhattisgarh 493114</p>
+    </footer>
+    <!-- <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script> -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
