@@ -229,11 +229,9 @@ footer {
 
 @media screen and (max-width: 768px) {
     nav {
-        /* flex-direction: column;
-        align-items: center; */
-        flex-direction: row; /* पहले column था, इसे row कर दें */
-        justify-content: space-between; /* Logo और Hamburger Menu को अलग रखें */
-        align-items: center; /* Center alignment */
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
         width: 100%;
         padding: 0 20px;
     }
